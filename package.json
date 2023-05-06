@@ -1,0 +1,40 @@
+{
+  "name": "apitj",
+  "version": "1.0.0",
+  "description": "Node.js client for the unofficial MidJourney API.",
+  "main": "libs/index.js",
+  "types": "libs/index.d.ts",
+  "source": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "files": [
+    "libs/*",
+    "*.md"
+  ],
+  "keywords": [
+    "apitj-api",
+    "apitj"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "D <test@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "dotenv": "^16.0.3",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "p-queue": "^6.6.2",
+    "throat": "^6.0.2",
+    "tslib": "^2.5.0"
+  }
+}
